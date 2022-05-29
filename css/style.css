@@ -114,16 +114,33 @@ body {
     height: 30rem;
 }
 
+.products-preview .preview .fa-times {
+    position: absolute;
+    top: 1rem;
+    right: 1.5rem;
+    cursor: pointer;
+    color: #444;
+    font-size: 4rem;
+}
 
+.products-preview .preview .fa-times:hover {
+    transform: rotate(90deg);
+}    
 
+.products-preview .preview h3 {
+    color: #444;
+    padding: .5rem 0;
+    font-size: 2.5rem;
+}
 
+.products-preview .preview .stars {
+    padding: .1rem 0;
+}
 
-
-
-
-
-
-
+.products-preview .preview .stars {
+    color: #27ae60;
+    font-size: 1.7rem;
+}
 
 
 
