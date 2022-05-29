@@ -102,12 +102,17 @@ body {
     align-items: center;
     background: #fff;
     position: relative;
+    margin: 2rem;
+    width: 40rem;
 }
 
 .products-preview .preview.active {
     display: inline-block;
 }
 
+.products-preview .preview img {
+    height: 30rem;
+}
 
 
 
