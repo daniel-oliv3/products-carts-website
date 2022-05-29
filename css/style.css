@@ -21,6 +21,8 @@ body {
     background: #eee;
 }
 
+/* Products Carts Section */
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
@@ -81,10 +83,30 @@ body {
 
 
 
+/* Products-Preview */
+.products-preview {
+    position: fixed;
+    top: 0;
+    left: 0;
+    min-height: 100vh;
+    width: 100%;
+    background: rgba(0, 0, 0, .8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.products-preview .preview {
+    display: none;
+    padding: 2rem;
+    align-items: center;
+    background: #fff;
+    position: relative;
+}
 
-
-
+.products-preview .preview.active {
+    display: inline-block;
+}
 
 
 
