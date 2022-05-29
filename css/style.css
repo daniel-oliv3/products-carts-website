@@ -12,11 +12,34 @@
     transition: all .2s linear;
 }
 
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
 
+body {
+    background: #eee;
+}
 
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 3rem 2rem;
+}
 
+.container .title {
+    font-size: 3.5rem;
+    color: #444;
+    margin-bottom: 3rem;
+    text-transform: uppercase;
+    text-align: center;
+}
 
-
+.container .products-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
+    gap: 2rem;
+}
 
 
 
